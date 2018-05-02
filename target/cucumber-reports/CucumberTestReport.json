@@ -1,0 +1,62 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7882408260,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Search simple word",
+        "description": "",
+        "id": "test-google-page-functionality;search-simple-word",
+        "after": [
+          {
+            "result": {
+              "duration": 1215717968,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 833570821,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I open yahoo search",
+            "match": {
+              "location": "Stepdefs.java:32"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@TagB"
+          }
+        ]
+      }
+    ],
+    "name": "test google page functionality",
+    "description": "",
+    "id": "test-google-page-functionality",
+    "keyword": "Feature",
+    "uri": "testGoogle.feature"
+  }
+]
