@@ -1,6 +1,7 @@
 package stepdefs;
 
 import config.Config;
+import cucumber.api.PendingException;
 import cucumber.api.java8.En;
 import pages.GooglePage;
 import webdriver.WebDriverManager;
@@ -32,6 +33,13 @@ public class Stepdefs implements En {
         Given("^I open yahoo search$", () -> {
             WebDriverManager.getDriver().get(Config.getProperty("link"));
             System.out.println("TagB");
+        });
+        When("^I click result number $", () -> {
+
+
+        });
+        When("^I click result number ([^\"]*)$", (Object arg0) -> {
+            System.out.println(arg0);
         });
     }
 }
