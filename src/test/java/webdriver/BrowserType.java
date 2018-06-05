@@ -8,7 +8,8 @@ public enum BrowserType {
     FIREFOX("ff", "firefox"),
     IE("ie"),
     EDGE("edge"),
-    OPERA("opera");
+    OPERA("opera"),
+    REMOTE("remote", "rm");
 
     private List<String> browserName;
 

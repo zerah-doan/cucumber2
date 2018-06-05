@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<project name="maven-antrun-" default="main"  >
-<target name="main">
-  <echo>Using env1.properties</echo>
-  <copy file="src/test/java/config/env1.properties" tofile="C:\Users\doanq\IdeaProjects\cucumber\target\classes/env.properties"/>
-</target>
-</project>
